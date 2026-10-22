@@ -1,0 +1,50 @@
+{
+  "id": "5f5f76aa-8003-4c9d-820c-409dacc2f41f",
+  "name": "MBS Site Inspection Scheduling Dataset",
+  "publisher": "MBS",
+  "version": "28.0.0.0",
+  "brief": "Dataset for MBS Site Inspection Scheduling",
+  "description": "A dataset for managing and analyzing site inspection data for MBS Site Inspection Scheduling.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "6b6a9b32-5654-477e-9a4d-1bee6af01f70",
+      "name": "MBS Site Inspection Scheduling",
+      "publisher": "MBS",
+      "version": "28.0.0.0"
+    },
+    {
+      "id": "5a0b41e9-7a42-4123-d521-2265186cfb31",
+      "name": "Contoso Coffee Demo Dataset",
+      "publisher": "Microsoft",
+      "version": "28.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
+  "runtime": "17.0",
+  "target": "Cloud",
+  "idRanges": [
+    {
+      "from": 50300,
+      "to": 50399
+    }
+  ],
+  "suppressWarnings": [
+    "AL0749"
+  ],
+  "features": [
+    "NoImplicitWith",
+    "NoPromotedActionProperties"
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  }
+}
